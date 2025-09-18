@@ -1,0 +1,271 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.main{
+    background-image: url(Images/background.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.opaque-box{
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+}
+/* NAVIGATION TOOL */
+.nav-logo img{
+    z-index: 1;
+    height: 7vw;
+    width: 13vw;
+    position: relative;
+    padding-left: 10%;
+}
+.navbar{
+    position: relative;
+    z-index: 1;  
+}
+.nav-lang-btn{
+    background-color: transparent;
+    padding: 10px;
+    color: white;
+    border-radius: 0.5rem;
+}
+.sign-in-btn{
+    background-color: red;
+    padding: 10px;
+    color: white;
+    border-radius: 0.5rem;
+    margin: 1rem;
+}
+.sign-in a{
+    text-decoration: none;
+    font-weight: bold;
+}
+.sign-in-btn:hover{
+    background-color: rgb(196, 33, 33);
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 5%;
+    position: absolute;
+    top: 20%;
+    right: 0;
+}
+/* MAIN-HOMEPAGE */
+.main-box{
+    height: 80vh;
+    width: 100vh;
+    margin: 1.8% auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+.box-content{
+    height: 70%;
+    width: 80%;
+}
+.box-content h1{
+    color: white;
+    font-size: 4vw;
+    text-align: center;
+    font-weight: 900;
+}
+.box-content .sub-para{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 1.5rem;
+}
+.box-content p{
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 4vh;
+}
+.input-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    width: 600px;
+    height: 56px;
+}
+.sub-input{
+    padding: 1rem;
+    width: 450px;
+    height: 56px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid white;
+    font-size: 1.2rem;
+    color: white
+}
+.button{
+    width: 140px;
+    height: 100%;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    background-color: rgb(229, 9, 20);
+    color: white;
+    border-radius: 5px;
+    box-shadow: none;
+    border: none;
+}
+/* SECONDARY-CONTENT */
+.secondary-content{
+    height: 100vh;
+    background: radial-gradient(50% 500%, rgba(0, 0, 0, 0.1) 100%), black;
+}
+.curve{
+    height: 20vh;
+    width: 100%;
+    overflow: hidden;
+    background: linear-gradient(to right, rgba(33, 13, 22, 1) 16%, rgba(184, 40, 105, 1), rgba(229, 9, 20, 1), rgba(184, 40, 105, 1), rgba(33, 13, 22, 1) 84%);
+    border-radius: 60%;
+    position: absolute;
+    top: 90%;
+}
+.curve2{
+    background: radial-gradient(50% 500% at 50% -420%, rgba(64, 97, 231, 0.4) 80%, rgba(0, 0, 0, 0.1) 100%), black;
+    height: 20vh;
+    width: 100%;
+    position: relative;
+    top: 2%;
+    border-radius: 60%;
+}
+/* MOVIE-CARD */
+.movie-content{
+    height: 50vh;
+    overflow: scroll;
+    width: 90%;
+    position: relative;
+    top: -5%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow-x: hidden;
+    gap: 20px 0px;
+}
+.movie-card-title{
+    color: white;
+    position: absolute;
+    left: 5%;
+    top: 3%;
+}
+.box{
+    height: 35vh;
+    width: 26vh;
+    border-radius: 10px;
+    transition: all ease-in-out 0.1s;
+}
+.boxx{
+    height: 35vh;
+    width: 34vh;
+    border-radius: 10px;
+    transition: all ease-in-out 0.1s;
+    background: linear-gradient(149deg, #192247 0%, #210e17 99.08%);
+    padding: 20px;
+    margin-top: 20px;
+    color: white;
+}
+.box1{
+    background-image: url(https://occ-0-2797-3647.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABYVcRfFB91jy3f8-_Alb6H4RUzqXFRA7ejjOfCOXF20XLRVeCyT3ZFEimKbZAimt2ayVUWXSnp6ApNxpoK0mA3XzJD__irrDkdMD6lDrOFPSvQqP8s0xn2dNBaU9JxIu4lUd.webp?r=63b&quot;);
+    background-size: cover;
+}
+.box2{
+    background-image: url(https://occ-0-2797-3647.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABa2fSipl5PZ4Yp1Zg-jbdAUQiRU5X9KqEG3w_6Z21aphltfxA4PNYA98JIJtUmACk8DQJq7BeHJJeFjXQ7aiCxtmvRY98kBzRjJW_C9i6gjz_NJ3pnL1CQuIJpNAdZ71NgRV.webp?r=4c4&quot;);
+    background-size: cover;
+}
+.box3{
+    background-image: url(https://occ-0-2797-3647.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABUbEuw4gn448vhUbeTgwsmEsA4ZhBFHAbPyFyAk414jH72BDs0ALdA2TEDez1mRZHuyUjlpB_EL0LxkrymlRyHs2joUg2Izzl4Q.webp?r=ad2&quot;);    
+    background-size: cover;
+}
+.box4{
+    background-image: url(https://occ-0-2797-3647.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABX7hOcf0tnnP_XiFLpxBfj2vbDm9zcc3zVCfJS34kAW-MHITMxWrS6br_FGIOv4YLM_w8D23DuZNWCNzWRE4KHWSeIUPVR1t4KcNOIrPIV4lgEWMfX1F4r5cA98_qBmGoU9q.webp?r=da8&quot;);
+    background-size: cover;
+}
+.box:hover{
+    transform: scale(1.1);
+}
+.sec-box-1{
+    color: white;
+}
+.sec-box-1 p{
+    padding-top: 1rem;
+    color: rgba(255, 255, 255, 0.7);
+}
+.sec-box-1 i{
+    font-size: 3.5rem;
+    color: white;
+    position: relative;
+    bottom: -35%;
+    left: 72%;
+}
+/* FAQs */
+.faqs{
+    background: radial-gradient(black);
+}
+.faq-container{
+    height: 100vh;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.faq-container h2{
+    color: white;
+    font-size: 1.9rem;
+    font-weight: 800;
+    margin-left: 32.5%;
+    position: absolute;
+    top: 202%;
+    left: 4%;
+}
+.faq-box{
+    display: flex;
+    height: 70px;
+    width: 1000px;
+    background-color: rgb(45,45,45);
+    padding: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 10px;
+}
+.faq-box span{
+    font-size: 1.7rem;
+    padding: 18px;
+    text-align: center;
+    color: white;
+}
+.faq-box i{
+   position: absolute;
+    font-size: 1.7rem;
+    color: white;
+    right: 17%;
+}
+/* FOOTER-DESIGN */
+.web-foot{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot-box-content p{
+    color: white;
+    position: absolute;
+    left: 32%;
+}

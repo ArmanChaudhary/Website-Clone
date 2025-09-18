@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main{
+    background-image: url(Images/background.jpg);
+    height: 111vh;
+    width: 100%;
+}
+.opaque{
+    height: 111vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.2;
+    position: absolute;
+    top: 0;
+}
+.navbar{
+    position: absolute;
+    z-index: 1;    
+}
+.logo img{
+    height: 7vw;
+    width: 13vw;
+    padding-left: 10vw;
+}
+/* SIGN-IN-FORM */
+.main-content{
+    position: absolute;
+    z-index: 1;
+    height: 100vh;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 10%;
+    top: 11%;
+}
+.form-panel{
+    height: 87vh;
+    width: 30vw;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+
+}
+.form-panel h2{
+    padding: 2rem;
+    padding-left: 3.8rem;
+    font-size: 2.2vw;
+}
+.inp-temp{
+    padding: 1rem;
+    color: white;
+    background-color: transparent;
+    width: 22vw;
+    box-shadow: none;
+    border: 1px solid white;
+    border-radius: 7px;
+    margin-bottom: 1rem;
+    height: 8vh;
+}
+.inp-temp-btn{
+    background-color: rgb(196, 33, 33);
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    height: 7vh;
+}
+.inp-temp-btn-2{
+    font-size: 1rem;
+    height: 6vh;
+    margin-top: 10%;
+    padding: 5px;
+    background: rgba(128, 128, 128, 0.4);
+    border: none;
+}
+.input-panel h3{
+    color: gainsboro;
+    position: absolute;
+    margin-left: 12.4%;
+    font-weight: 400;
+}
+.input-panel{
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    margin-left: 14%
+}
+.input-panel a{
+    color: white;
+    display: block;
+    margin-left: 25%;
+}
+.chk-box{
+    height: 3vh;
+    width: 1.4vw;
+}
+.remember-me{
+    margin-top: 7%;
+    margin-left: 1%;
+}
+.remember-me span{
+    position: absolute;
+    bottom: 30%;
+    left: 39%;
+}
+.sign-up-para{
+    display: flex;
+    margin-top: 7%;
+    color: rgba(255, 255, 255, 0.5);
+}
+.sign-up-para a{
+    margin-left: 2%;
+    font-weight: 700;
+    color: white;
+}
+.captcha-notice{
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 5%;
+    margin-left: 0%;
+}
+.captcha-notice .lrn-more{
+    color: rgb(5, 97, 255);
+    margin-left: 0;
+    margin-top: 2%;
+}
